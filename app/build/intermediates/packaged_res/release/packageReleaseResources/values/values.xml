@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="cream">#FFF7FA</color>
+    <color name="rose">#E0457B</color>
+    <color name="splash">#E94E86</color>
+    <string name="app_name">Nós Dois</string>
+    <string name="widget_description">Dias de namoro, dias se conhecendo, próximo aniversário e a mensagem \"Nunca esquecer\". Muda de visual conforme o tamanho.</string>
+    <string name="widget_name">Nós Dois · Contador</string>
+    <string name="widget_photo_description">A foto do casal com os contadores por cima</string>
+    <string name="widget_photo_name">Nós Dois · Foto</string>
+    <style name="Theme.NosDois" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="android:colorAccent">@color/rose</item>
+    </style>
+</resources>

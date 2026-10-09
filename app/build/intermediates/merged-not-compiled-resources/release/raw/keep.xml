@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Os sons são usados pelo nome (android.resource://.../raw/nome), então não podem ser removidos pelo encolhimento de recursos -->
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@raw/sininho,@raw/melodia,@raw/coracao" />

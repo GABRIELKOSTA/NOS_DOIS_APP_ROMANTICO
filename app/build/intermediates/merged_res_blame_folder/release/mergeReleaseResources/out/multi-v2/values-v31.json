@@ -1,0 +1,28 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.nosdois.app-mergeReleaseResources-41:/values-v31/values-v31.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\Usuario\\Downloads\\Novo_app_Am\\app\\src\\main\\res\\values-v31\\themes.xml",
+                    "from": {
+                        "startLines": "1",
+                        "startColumns": "4",
+                        "startOffsets": "17",
+                        "endLines": "8",
+                        "endColumns": "12",
+                        "endOffsets": "578"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "9",
+                        "endColumns": "12",
+                        "endOffsets": "548"
+                    }
+                }
+            ]
+        }
+    ]
+}

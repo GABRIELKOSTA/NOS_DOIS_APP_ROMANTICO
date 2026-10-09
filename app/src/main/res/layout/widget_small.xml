@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Widget pequeno (2x2): só o contador principal -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/w_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <ImageView
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/widget_badge"
+        android:contentDescription="@null"
+        android:padding="7dp"
+        android:src="@drawable/ic_stat_heart" />
+
+    <TextView
+        android:id="@+id/w_dating_days"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="4dp"
+        android:autoSizeMaxTextSize="44sp"
+        android:autoSizeMinTextSize="18sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:includeFontPadding="false"
+        android:maxLines="1"
+        android:text="730"
+        android:textColor="#FFFFFF" />
+
+    <TextView
+        android:id="@+id/w_dating_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:singleLine="true"
+        android:text="dias juntos"
+        android:textColor="#F2FFFFFF"
+        android:textSize="13sp" />
+
+    <TextView
+        android:id="@+id/w_since"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:singleLine="true"
+        android:text="desde 12/06/2022"
+        android:textColor="#CCFFFFFF"
+        android:textSize="10sp" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <style name="Theme.NosDois" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/cream</item>
+        <item name="android:colorAccent">@color/rose</item>
+    </style>
+</resources>

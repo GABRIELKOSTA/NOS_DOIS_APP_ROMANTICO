@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Nós Dois</string>
+    <string name="widget_name">Nós Dois · Contador</string>
+    <string name="widget_description">Dias de namoro, dias se conhecendo, próximo aniversário e a mensagem \"Nunca esquecer\". Muda de visual conforme o tamanho.</string>
+    <string name="widget_photo_name">Nós Dois · Foto</string>
+    <string name="widget_photo_description">A foto do casal com os contadores por cima</string>
+</resources>
